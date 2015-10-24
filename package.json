@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "myo": "^1.5.0",
-    "osc": "^1.1.1"
+    "myo": "*",
+    "osc": "*"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node myo-node-osc.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
